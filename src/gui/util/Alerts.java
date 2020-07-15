@@ -13,6 +13,7 @@ public class Alerts {
 		alert.setTitle(title);
 		alert.setHeaderText(header);
 		alert.setContentText(content);
+		System.out.print(content);
 		alert.show();
 	}
 
